@@ -14,7 +14,7 @@
 HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de estruturação e apresentação de conteúdo para a World Wide Web. O conhecimento desta linguagem, juntamente com as tecnologias CSS3 e JavaScript é essencial para todos os profissionais de web.
 
 # Características
-No curso é abordada sintaxe básica da de HTML5 e CSS3, juntamente com os conceitos e aplicações.
+No curso é abordada sintaxe de HTML5 e CSS3, juntamente com os conceitos e aplicações. Se extendendo por 5 módulos desmistificando e preparando o profissional com a didática de Gustavo Guanabara. 
 
 Conhecimentos como a Evolução da Internet, protocolos e ferramentas.
 
