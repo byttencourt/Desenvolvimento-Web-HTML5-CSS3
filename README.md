@@ -1,31 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site CursoemVídeo</title>
-    <link rel="stylesheet" href="estilos/style.css">
-</head>
-<body>
-    <main>
-        <header>
-            <h1>Cursos Grátis</h1>
-            <img src="" alt="Curso em Vídeo">
-        </header>
-        <article>
-            <h2>Curso de HTML 5 com CSS3</h2>
-            <img class="lado" src="" alt="Curso HTML">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus culpa molestiae in eos, quos, consequatur corrupti odit tenetur pariatur animi iusto fugiat praesentium veritatis voluptates vitae nulla, doloremque nostrum autem!</p>
-            <p><a href="curso-html.html">Acesse o curso de HTML5</a></p>
-        </article>
-        <article>
-            <h2>Curso de Javascript</h2>
-            <img class="lado" src="" alt="Curso Js">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe, nisi deserunt non omnis architecto impedit est, quidem esse, debitis possimus sit ratione quasi repellat laborum quaerat totam pariatur rerum!</p>
-            <p><a href="curso-js.html">Acesse o curso de Javascript</a></p>
-        </article>
-    </main>
-</body>
-</html>
- 
+<div align="center">
+ <h1> <img src="https://i.imgur.com/Z7ncjRn.jpeg" width="800px"><br/>Desenvolvimento Web HTML5+CSS3</h1>
+     </div>
+     
+  <!--<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,django,flask,mongodb,sqlite" />
+  </a>
+</p-->
+
+
+
+# Descrição
+HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de estruturação e apresentação de conteúdo para a World Wide Web. O conhecimento desta linguagem, juntamente com as tecnologias CSS3 e JavaScript é essencial para todos os profissionais de web.
+
+# Características
+No curso é abordada sintaxe básica da de HTML5 e CSS3, juntamente com os conceitos e aplicações.
+
+Conhecimentos como a Evolução da Internet, protocolos e ferramentas.
+
+Atividades e Conteúdos:
+
+- Fundamentos.
+- Evolução da Internet, como funciona.
+- Domínio e Hospedagem.
+- Front-End e Back-End.
+- Herarquia, Semântica, formatações, listas, links, imagens, Elementos.
+
+
+# Techs Used
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="96" width="96px" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="96" width="96px" />
+
+
+
+# Screenshots
+  <img src="https://i.imgur.com/S5cdn0v.png"> 
+ <!--
+ <img src="https://i.imgur.com/gJlsuu6.png">
+ <img src="https://i.imgur.com/KPmlocf.png"> 
+ <img src="https://i.imgur.com/1g9U8qh.png">
+# Tech Used
+ ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+ # Mais detalhes:
+100% Aproveitamento
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=curso&message=concluido&color=GREEN&style=for-the-badge)<br>
