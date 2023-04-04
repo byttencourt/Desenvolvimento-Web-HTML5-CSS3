@@ -20,6 +20,7 @@ Conhecimentos como a Evolução da Internet, protocolos e ferramentas.
 
 Atividades e Conteúdos:
 
+Módulo 1:
 - Fundamentos.
 - Evolução da Internet, como funciona.
 - Domínio e Hospedagem.
@@ -35,11 +36,8 @@ Atividades e Conteúdos:
 # Screenshots
   <img src="https://i.imgur.com/S5cdn0v.png"> 
   <img src="https://i.imgur.com/D4ojo98.png">
-  <!--
- <img src="https://i.imgur.com/KPmlocf.png"> 
- <img src="https://i.imgur.com/1g9U8qh.png">
-# Tech Used
- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
- # Mais detalhes:
+  <img src="https://i.imgur.com/6mM0CFo.png"> 
+  <img src="https://i.imgur.com/6OByfN2.png">
+
 100% Aproveitamento
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=curso&message=concluido&color=GREEN&style=for-the-badge)<br>
