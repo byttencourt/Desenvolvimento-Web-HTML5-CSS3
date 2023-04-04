@@ -35,9 +35,10 @@ Módulo 1:
 
 # Screenshots
   <img src="https://i.imgur.com/S5cdn0v.png"> 
-  <img src="https://i.imgur.com/D4ojo98.png">
+  <img src="https://i.imgur.com/aaXZaHf.png">
   <img src="https://i.imgur.com/6mM0CFo.png"> 
   <img src="https://i.imgur.com/6OByfN2.png">
 
-100% Aproveitamento
+<p>100% Aproveitamento</p>
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=curso&message=concluido&color=GREEN&style=for-the-badge)<br>
