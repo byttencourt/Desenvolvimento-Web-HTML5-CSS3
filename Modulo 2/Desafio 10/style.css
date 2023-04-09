@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+body {
+   background-color: rgb(127, 255, 185); 
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+            
+}
+header  {
+    background-image: linear-gradient(to top, rgb(18, 77, 47), #2ce27b);
+    color: white;
+    margin: 0px;
+    padding: 10px; 
+
+}
+a {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+a:hover {
+    color: aquamarine;
+}
+h1.center {
+    font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+h3.center {
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+main {
+    background-color: white;
+    width: 700px;
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+    margin: auto;
+}
+h1.idroid {
+    font-family: 'idroid', Helvetica, sans-serif;
+    font-size: 28px;
+    color: green;
+}
+.bg {
+    background-image: linear-gradient(to right, rgba(127, 255, 195, 0.548), white);
+}
+P {
+    text-indent: 35px;
+    text-align: justify;
+}
+picture.bugdroid {
+    margin: auto;
+}
+.center {
+    text-align: center;
+}
+main.backstage {
+    background-color: white;
+    width: 700px;
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px ;
+}
+div.table {
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgb(183, 216, 206);
+    margin: 0px;
+    
+}
+h2.table {
+    background-color: rgb(57, 148, 121);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    
+    
+}
+p.center {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+}
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna {
+    width: 50;
+}
+.main{
+    padding: 10px;
+}
+footer {
+    margin-top: 20px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
