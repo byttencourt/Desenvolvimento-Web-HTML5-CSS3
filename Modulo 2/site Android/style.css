@@ -12,21 +12,30 @@ body {
             
 }
 header  {
-    background-image: linear-gradient(to top, rgb(18, 77, 47), #2ce27b);
+    background-image: linear-gradient(to top, rgb(33, 65, 48), #2ce27b);
     color: white;
     margin: 0px;
     padding: 10px; 
 
 }
-a {
+a.nav {
     text-align: left;
     color: white;
     font-weight: bold;
     text-decoration: none;
-    margin: 10px;
+    padding: 10px;
+}
+a.nav:hover {
+    background-color: #51a073;
+    color: darkgreen;
+    border-radius: 2px;
+    padding: 10px;
 }
 a:hover {
     color: aquamarine;
+}
+a.icon::after {
+    content: ' 📎';
 }
 h1.center {
     font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
@@ -41,7 +50,7 @@ h3.center {
 }
 main {
     background-color: white;
-    width: 700px;
+    width: 800px;
     box-shadow: 5px 5px 15px black;
     padding: 20px;
     margin: auto;
@@ -66,21 +75,21 @@ picture.bugdroid {
 }
 main.backstage {
     background-color: white;
-    width: 700px;
+    width: 800px;
     box-shadow: 5px 5px 15px black;
     padding: 20px;
     margin: auto;
     border-radius: 0px 0px 10px 10px ;
 }
 div.table {
-    width: 700px;
+    width: 800px;
     border-radius: 10px;
     background-color: rgb(183, 216, 206);
     margin: 0px;
     
 }
 h2.table {
-    background-color: rgb(57, 148, 121);
+    background-color: darkgreen;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
     color: white;
@@ -108,4 +117,11 @@ footer {
     color: white;
     text-align: center;
     font-weight: 100;
+}
+div.you {
+    background-color: darkgreen;
+    width: 800px;
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+    margin: auto;
 }
