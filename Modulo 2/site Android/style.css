@@ -6,12 +6,13 @@
     font-size: normal;
 }
 body {
-   background-color: rgb(127, 255, 185); 
+   background-color: rgb(230, 223, 206); 
    margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 600;
             
 }
+
 header  {
     background-image: linear-gradient(to top, rgb(33, 65, 48), #2ce27b);
     color: white;
@@ -19,111 +20,126 @@ header  {
     padding: 10px; 
 
 }
-a.nav {
-    text-align: left;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px;
-}
-a.nav:hover {
-    background-color: #51a073;
-    color: darkgreen;
-    border-radius: 2px;
-    padding: 10px;
-}
-a:hover {
-    color: aquamarine;
-}
-a.icon::after {
-    content: ' 📎';
-}
-h1.center {
+
+header > h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 46px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
 }
-h3.center {
+
+header > h3 {
     font-weight: 400;
     text-align: center;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
 }
-main {
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s; 
+}
+
+nav > a:hover {
+    background-color: #51a073;
+    color: darkgreen;
+}
+
+main a {
+    color: darkgreen;
+    background-color: aquamarine;
+}
+
+main a:hover {
+    color: darkgreen;
+    background-color: rgb(7, 224, 152);
+}
+
+a.icon::after {
+    content: '\1F517';
+}
+
+article {
     background-color: white;
     width: 800px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.329);
     padding: 20px;
+    border-radius: 0px 0px 10px 10px;
     margin: auto;
 }
-h1.idroid {
+
+.idroid {
     font-family: 'idroid', Helvetica, sans-serif;
     font-size: 28px;
     color: green;
 }
+
 .bg {
     background-image: linear-gradient(to right, rgba(127, 255, 195, 0.548), white);
 }
+
 P {
     text-indent: 35px;
     text-align: justify;
 }
+
 picture.bugdroid {
     margin: auto;
 }
+
 .center {
     text-align: center;
 }
-main.backstage {
-    background-color: white;
-    width: 800px;
-    box-shadow: 5px 5px 15px black;
+
+aside {
+    background-color: rgb(171, 199, 179);
+    width: 750px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.377);
     padding: 20px;
     margin: auto;
-    border-radius: 0px 0px 10px 10px ;
+    margin-top: 20px;
+    border-radius: 10px ;
 }
-div.table {
-    width: 800px;
-    border-radius: 10px;
-    background-color: rgb(183, 216, 206);
-    margin: 0px;
-    
-}
-h2.table {
-    background-color: darkgreen;
+
+aside > h2 {
+    background-color: green;
     padding: 10px;
+    margin: -20px;
     border-radius: 10px 10px 0px 0px;
-    color: white;
-    
-    
 }
-p.center {
-    margin: 0px;
-    text-align: center;
-    padding: 0px;
+
+ul {
+    list-style-position: inside;
+    columns: 2;
 }
-.linha {
-    display: flex;
-    flex-flow: row wrap;
-}
-.coluna {
-    width: 50;
-}
+
 .main{
     padding: 10px;
 }
+
+aside > p {
+    font-weight: normal;
+}
+
 footer {
     margin-top: 20px;
     background-color: darkgreen;
     color: white;
     text-align: center;
     font-weight: 100;
+    position: ;
 }
-div.you {
-    background-color: darkgreen;
+
+p.normal {
+    font-weight: normal;
+}
+
+article > div {
     width: 800px;
-    box-shadow: 5px 5px 15px black;
-    padding: 20px;
     margin: auto;
+    padding-top: 10px;
 }
