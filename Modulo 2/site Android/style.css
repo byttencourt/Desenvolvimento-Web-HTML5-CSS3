@@ -140,7 +140,8 @@ p.normal {
 }
 
 article > div {
-    width: 800px;
+    max-width: 800px;
+    min-width: none;
     margin: auto;
     padding-top: 10px;
 }
