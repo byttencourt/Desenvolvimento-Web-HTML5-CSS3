@@ -66,7 +66,6 @@ a.icon::after {
 article {
     background-color: white;
     max-width: 800px;
-    min-width: 320px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.329);
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
@@ -141,7 +140,6 @@ p.normal {
 
 article > div {
     max-width: 800px;
-    min-width: none;
     margin: auto;
     padding-top: 10px;
 }
