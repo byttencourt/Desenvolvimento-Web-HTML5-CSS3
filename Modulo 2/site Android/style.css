@@ -98,7 +98,7 @@ picture.bugdroid {
 
 aside {
     background-color: rgb(171, 199, 179);
-    width: 750px;
+    max-width: 750px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.377);
     padding: 20px;
     margin: auto;
@@ -132,7 +132,7 @@ footer {
     color: white;
     text-align: center;
     font-weight: 100;
-    position: ;
+    
 }
 
 p.normal {
