@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th,td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .color {
+            background-color: gray;
+            color: white;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="verde">
+            <col class="amarelo" span="2">
+            <col class="color">
+        </colgroup>
+        <tr>
+            <th scope="col" class="color">Nome</th>
+            <th scope="col" class="color">Sexo</th>
+            <th scope="col" class="color">Idade</th>
+            <th scope="col" class="color">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Josi Alves</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Assistente</td>
+        </tr>
+        <tr>
+            <td>NINO</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Autonomo</td>
+        </tr>
+        <tr>
+            <td>Nicolas Bittencourt</td>
+            <td>M</td>
+            <td>5</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Juju</td>
+            <td>F</td>
+            <td>12</td>
+            <td>Do lar</td>
+        </tr>
+    </table>
+</body>
+</html>
