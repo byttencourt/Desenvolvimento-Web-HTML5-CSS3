@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+        
+        h1 { 
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-weight: 500;
+                        
+        }
+
+        section {
+            margin: auto;
+            width: 414px;
+            height: 898px;
+            background: black url('imagens/1.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        form#cadastro {
+            margin-top: 440px;
+            margin-left: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Form Test</h1>
+        <form id="cadastro"action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="iusuario">User: </label> <br><br>
+                <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15" size="30" placeholder="Ex: John Doe" autocomplete="username">
+            </p>
+            <br>
+            <br>
+            <p>
+                <label for="isenha">password: </label> <br><br>
+                <input type="password" name="senha" id="isenha" required minlength="8" size="30" placeholder="12345" autocomplete="new-password">
+            </p>
+            <br>
+            <br>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </section>
+</body>
+</html>
