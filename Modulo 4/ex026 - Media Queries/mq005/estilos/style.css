@@ -37,12 +37,12 @@ i#burguer:hover {
     color: black;
 }
 
-nav {
+menu {
     display: none;
 }
 
 
-nav > a {
+menu> ul> li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -52,7 +52,7 @@ nav > a {
     border-top: 2px solid gray;
 }
 
-nav>a:hover {
+menu> ul> li > a:hover {
     background-color: rgb(90, 89, 89);
 }
 
