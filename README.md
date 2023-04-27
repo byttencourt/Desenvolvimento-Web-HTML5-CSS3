@@ -75,6 +75,11 @@ Atividades e Conteúdos:
   <img src="https://i.imgur.com/JZ7v662.png">
   <img src="https://i.imgur.com/sIlmiML.png">
   <img src="https://i.imgur.com/uNEJ7qv.png">
+
+  ## Módulo 4
+  <img src="https://i.imgur.com/dRroVPY.png">
+  <img src="https://i.imgur.com/LpXlURj.png">
+  <img src="https://i.imgur.com/tvLH5tG.png">
   
 
 
